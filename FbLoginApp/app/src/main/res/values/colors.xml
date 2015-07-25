@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- color schema -->
+    <color name="color_butterfly_bush">#605390</color>
+    <color name="color_east_bay">#54487E</color>
+    <color name="color_mischka">#EAE9EB</color>
+    <color name="color_white_solid">#FFFFFF</color>
+
+    <!-- Application colors -->
+    <color name="theme_window_background">@color/color_mischka</color>
+
+    <!-- FB Button -->
+    <color name="fb_button_normal">@color/color_east_bay</color>
+    <color name="fb_button_selected">@color/color_butterfly_bush</color>
+    <color name="fb_button_text">@color/color_white_solid</color>
+
+    <color name="text_color_dummy">@color/color_east_bay</color>
+</resources>
+

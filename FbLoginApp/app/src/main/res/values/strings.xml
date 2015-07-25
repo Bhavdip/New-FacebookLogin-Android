@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Facebooklogin</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- App font -->
+    <string name="exception_font_specified">Font not specified</string>
+    <string name="font_gotham_medium">GothamMedium.ttf</string>
+
+    <!--App String -->
+    <string name="text_fb_login">Facebook login</string>
+
+    <string name="text_fb_share">Share The Post</string>
+
+    <string name="text_dummy">The Super fast Colour\nSchemes generator for cool designers </string>
+
+    <string name="facebook_app_id">1453092451660631</string>
+</resources>
+

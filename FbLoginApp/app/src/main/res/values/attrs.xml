@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="advancetextview">
+        <attr name="textfont" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="advanceButton">
+        <attr name="buttonfont" format="string" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fb="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FbInAppLogin">
+
+    <com.edu.martin.sample.widget.AdvTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_dummy"
+        android:textColor="@color/text_color_dummy"
+        android:textSize="28sp"
+        app:textfont="@string/font_gotham_medium">
+
+    </com.edu.martin.sample.widget.AdvTextView>
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/button_fb_login"
+        style="@style/style_fb_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:drawableLeft="@null"
+        fb:confirm_logout="false"
+        fb:login_text="@string/text_fb_login"
+        fb:logout_text="@string/text_fb_login" />
+
+</RelativeLayout>
